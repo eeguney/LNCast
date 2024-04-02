@@ -20,7 +20,7 @@ services:
 
   frontend:
     build:
-      context: ./client
+      context: .
       dockerfile: dockerfile
     ports:
       - "3000:3000"
